@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">OCR_app</string>
+    <string name="app_name">OCR App</string>
+    <string name="camera">Camera</string>
+    <string name="ocr">Get text</string>
+    <string name="usrnm">Your username&#8230;</string>
+    <string name="psswrd">Your password&#8230;</string>
+    <string name="ask_sign_in">Please sign in</string>
+    <string name="sign_in">Sign in</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="conf_password">Confirm password</string>
+    <string name="ask_sign_up">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="username_error_1">Empty username</string>
+    <string name="username_error_2">Existing username</string>
+    <string name="password_error_1">Empty password</string>
+    <string name="password_error_2">Password don\'t match</string>
+    <string name="sign_in_error_1">Incorrect username/password</string>
 </resources>
