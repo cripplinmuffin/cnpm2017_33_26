@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">OCR App</string>
     <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
     <string name="ocr">Get text</string>
     <string name="usrnm">Your username&#8230;</string>
     <string name="psswrd">Your password&#8230;</string>
