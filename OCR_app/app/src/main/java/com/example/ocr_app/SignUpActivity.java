@@ -33,6 +33,8 @@ public class SignUpActivity extends AppCompatActivity {
         etConfPassword = findViewById(R.id.etConfPassword_SignUp);
         btSignUp = findViewById(R.id.btSignUp);
 
+        Global.loadData(SignUpActivity.this);
+
         btSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,6 +74,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                     if(!flag) {
                         Global.users.add(new Account(username, password));
+                        Global.saveData(SignUpActivity.this);
                         Toast.makeText(SignUpActivity.this, "Signed up!", Toast.LENGTH_LONG).show();
                         finish();
                     }

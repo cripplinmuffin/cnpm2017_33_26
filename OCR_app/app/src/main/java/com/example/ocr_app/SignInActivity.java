@@ -26,6 +26,8 @@ public class SignInActivity extends AppCompatActivity {
         btSignIn = findViewById(R.id.btSignIn);
         tvSignUp = findViewById(R.id.tvAskSignUp);
 
+        Global.loadData(SignInActivity.this);
+
         btSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
