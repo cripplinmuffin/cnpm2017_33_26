@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar tbMain;
 
     private static int OCRRequest = 1;
-    private static int PICK_IMAGES=1; //là id để mở gallery và khi chọn ảnh thì dùng id này để xác thực hành động
+    private static int PICK_IMAGES = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
